@@ -1,0 +1,27 @@
+# Compiled Go binaries
+/go-server
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Go test and coverage output
+*.test
+*.out
+coverage.*
+
+# Go workspace files
+go.work
+go.work.sum
+
+# Environment variables and local configuration
+.env
+.env.*
+!.env.example
+
+# Editor and operating-system files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
